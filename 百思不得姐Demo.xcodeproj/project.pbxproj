@@ -105,10 +105,6 @@
 				4181BC171D1ECB9D00722E65 /* AppDelegate.m */,
 				4181BC191D1ECB9D00722E65 /* ViewController.h */,
 				4181BC1A1D1ECB9D00722E65 /* ViewController.m */,
-				4181BC1C1D1ECB9D00722E65 /* Main.storyboard */,
-				4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */,
-				4181BC211D1ECB9D00722E65 /* LaunchScreen.storyboard */,
-				4181BC241D1ECB9D00722E65 /* Info.plist */,
 				4181BC131D1ECB9D00722E65 /* Supporting Files */,
 			);
 			path = "百思不得姐Demo";
@@ -117,6 +113,10 @@
 		4181BC131D1ECB9D00722E65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4181BC1C1D1ECB9D00722E65 /* Main.storyboard */,
+				4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */,
+				4181BC211D1ECB9D00722E65 /* LaunchScreen.storyboard */,
+				4181BC241D1ECB9D00722E65 /* Info.plist */,
 				4181BC141D1ECB9D00722E65 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -413,7 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GCY.-----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GCY.-----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
