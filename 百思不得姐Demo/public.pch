@@ -1,0 +1,29 @@
+//
+//  public.pch
+//  百思不得姐Demo
+//
+//  Created by Mr.GCY on 16/6/26.
+//  Copyright © 2016年 Mr.GCY. All rights reserved.
+//
+
+#ifndef public_pch
+#define public_pch
+
+//表示只是在oc环境下该内容才会被添加在.m文件中
+#ifdef __OBJC__
+
+//打印日志(只有在调试状态下才会打印日志)
+#ifdef DEBUG
+#define GCYLog(...) NSLog(__VA_ARGS__)
+#else
+#define GCYLog(...)
+#endif
+
+//颜色
+#define GCYRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define GCYRGB(r,g,b) GCYRGBA(r,g,b,255)
+#define GCYRandomColor GCYRGB(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
+
+#endif
+
+#endif /* public_pch */
