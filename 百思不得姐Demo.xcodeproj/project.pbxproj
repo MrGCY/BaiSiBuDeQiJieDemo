@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		418023461D22C4300041757B /* GCYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418023441D22C4300041757B /* GCYTabBarController.m */; };
+		4180234D1D22C4AF0041757B /* GCYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180234C1D22C4AF0041757B /* GCYTabBar.m */; };
 		4181BC1E1D1ECB9D00722E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC1C1D1ECB9D00722E65 /* Main.storyboard */; };
 		4181BC201D1ECB9D00722E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */; };
 		4181BC231D1ECB9D00722E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC211D1ECB9D00722E65 /* LaunchScreen.storyboard */; };
@@ -14,7 +16,7 @@
 		4181BC391D1ECB9D00722E65 /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181BC381D1ECB9D00722E65 /* _____DemoUITests.m */; };
 		41BF722E1D1FDC56004E3D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF722C1D1FDC56004E3D0B /* AppDelegate.m */; };
 		41BF722F1D1FDC56004E3D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF722D1D1FDC56004E3D0B /* main.m */; };
-		41BF72331D202611004E3D0B /* GCYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF72321D202611004E3D0B /* GCYTabBarController.m */; };
+		41EB2F1E1D22CE140040AE8B /* UIView+GCYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		418023431D22C4300041757B /* GCYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBarController.h; sourceTree = "<group>"; };
+		418023441D22C4300041757B /* GCYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBarController.m; sourceTree = "<group>"; };
+		4180234B1D22C4AF0041757B /* GCYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBar.h; sourceTree = "<group>"; };
+		4180234C1D22C4AF0041757B /* GCYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBar.m; sourceTree = "<group>"; };
 		4181BC101D1ECB9D00722E65 /* 百思不得姐Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4181BC1D1D1ECB9D00722E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,9 +55,9 @@
 		41BF722B1D1FDC56004E3D0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41BF722C1D1FDC56004E3D0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		41BF722D1D1FDC56004E3D0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41BF72311D202611004E3D0B /* GCYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBarController.h; sourceTree = "<group>"; };
-		41BF72321D202611004E3D0B /* GCYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBarController.m; sourceTree = "<group>"; };
 		41BF72341D202A07004E3D0B /* public.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public.pch; sourceTree = "<group>"; };
+		41EB2F1C1D22CE140040AE8B /* UIView+GCYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GCYExtension.h"; sourceTree = "<group>"; };
+		41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GCYExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		418023411D22C4300041757B /* TabBarClass */ = {
+			isa = PBXGroup;
+			children = (
+				418023421D22C4300041757B /* Controller */,
+				418023451D22C4300041757B /* View */,
+			);
+			path = TabBarClass;
+			sourceTree = "<group>";
+		};
+		418023421D22C4300041757B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				418023431D22C4300041757B /* GCYTabBarController.h */,
+				418023441D22C4300041757B /* GCYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		418023451D22C4300041757B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4180234B1D22C4AF0041757B /* GCYTabBar.h */,
+				4180234C1D22C4AF0041757B /* GCYTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		418023471D22C4400041757B /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				41EB2F1C1D22CE140040AE8B /* UIView+GCYExtension.h */,
+				41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
 		4181BC071D1ECB9D00722E65 = {
 			isa = PBXGroup;
 			children = (
@@ -141,21 +183,13 @@
 		41BF722A1D1FDC56004E3D0B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				41BF72301D2025E3004E3D0B /* TabBarController */,
+				418023411D22C4300041757B /* TabBarClass */,
+				418023471D22C4400041757B /* Categorys */,
 				41BF722B1D1FDC56004E3D0B /* AppDelegate.h */,
 				41BF722C1D1FDC56004E3D0B /* AppDelegate.m */,
 				41BF722D1D1FDC56004E3D0B /* main.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		41BF72301D2025E3004E3D0B /* TabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				41BF72311D202611004E3D0B /* GCYTabBarController.h */,
-				41BF72321D202611004E3D0B /* GCYTabBarController.m */,
-			);
-			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EB2F1E1D22CE140040AE8B /* UIView+GCYExtension.m in Sources */,
 				41BF722F1D1FDC56004E3D0B /* main.m in Sources */,
+				4180234D1D22C4AF0041757B /* GCYTabBar.m in Sources */,
 				41BF722E1D1FDC56004E3D0B /* AppDelegate.m in Sources */,
-				41BF72331D202611004E3D0B /* GCYTabBarController.m in Sources */,
+				418023461D22C4300041757B /* GCYTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

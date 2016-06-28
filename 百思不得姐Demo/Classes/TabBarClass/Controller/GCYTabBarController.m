@@ -7,6 +7,7 @@
 //
 
 #import "GCYTabBarController.h"
+#import "GCYTabBar.h"
 
 @interface GCYTabBarController ()
 
@@ -18,33 +19,60 @@
     [super viewDidLoad];
     
     //设置tabBar文字的属性
+    [self setTabBarTitleAttrs];
+    
+    //设置控制器
+    [self setupAllChildViewController];
+    
+    
+}
+/**
+ *  设置tabBar文字属性
+ */
+-(void)setTabBarTitleAttrs
+{
     //设置普通状态
     NSMutableDictionary *normalAttrs = [NSMutableDictionary dictionary];
     normalAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
-    normalAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    normalAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     //设置选中状态
     NSMutableDictionary * selectedAttrs = [NSMutableDictionary dictionary];
-    selectedAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    selectedAttrs[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     
     //设置item全局改变
     [[UITabBarItem appearance] setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
-    //设置控制器
+    //设置自定义TabBar
+    [self setValue:[[GCYTabBar alloc] init] forKeyPath:@"tabBar"];
+}
+/**
+ *  初始化所以控制器
+ */
+-(void)setupAllChildViewController
+{
     [self setupChildViewController:[[UITableViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
     [self setupChildViewController:[[UITableViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectImage:@"tabBar_new_click_icon"];
     [self setupChildViewController:[[UITableViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
     [self setupChildViewController:[[UITableViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
-    
-    
 }
-
+/**
+ *  初始化一个控制器
+ *
+ *  @param vc             控制器
+ *  @param title          设置控制器的文字
+ *  @param imageStr       设置按钮的图片
+ *  @param selectImageStr 设置按钮选中图片
+ */
 -(void)setupChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)imageStr selectImage:(NSString *)selectImageStr
 {
     vc.view.backgroundColor = GCYRandomColor;
     vc.tabBarItem.title = title;
-    vc.tabBarItem.image = [UIImage imageNamed:imageStr];
-    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImageStr];
+    if (imageStr.length)
+    {
+        vc.tabBarItem.image = [UIImage imageNamed:imageStr];
+        vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImageStr];
+    }
     [self addChildViewController:vc];
 }
 @end
