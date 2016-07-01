@@ -58,9 +58,8 @@
     
     //设置发布按钮的位置大小
     self.publishButton.frame = CGRectMake(0, 0, buttonW, buttonH);
-    self.publishButton.center = CGPointMake(self.gcy_width * 0.5, self.gcy_height * 0.5);
-    
-    
+    self.publishButton.gcy_centerX = self.gcy_width * 0.5;
+    self.publishButton.gcy_centerY = self.gcy_height * 0.5;
 }
 /**
  *  发布按钮的事件监听

@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		418023461D22C4300041757B /* GCYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418023441D22C4300041757B /* GCYTabBarController.m */; };
-		4180234D1D22C4AF0041757B /* GCYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180234C1D22C4AF0041757B /* GCYTabBar.m */; };
 		4181BC1E1D1ECB9D00722E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC1C1D1ECB9D00722E65 /* Main.storyboard */; };
 		4181BC201D1ECB9D00722E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */; };
 		4181BC231D1ECB9D00722E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4181BC211D1ECB9D00722E65 /* LaunchScreen.storyboard */; };
 		4181BC2E1D1ECB9D00722E65 /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181BC2D1D1ECB9D00722E65 /* _____DemoTests.m */; };
 		4181BC391D1ECB9D00722E65 /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4181BC381D1ECB9D00722E65 /* _____DemoUITests.m */; };
-		41BF722E1D1FDC56004E3D0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF722C1D1FDC56004E3D0B /* AppDelegate.m */; };
-		41BF722F1D1FDC56004E3D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BF722D1D1FDC56004E3D0B /* main.m */; };
-		41EB2F1E1D22CE140040AE8B /* UIView+GCYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */; };
+		41C8B08B1D269ECF00DAC3E2 /* UIView+GCYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B06C1D269ECF00DAC3E2 /* UIView+GCYExtension.m */; };
+		41C8B08C1D269ECF00DAC3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B06F1D269ECF00DAC3E2 /* AppDelegate.m */; };
+		41C8B08E1D269ECF00DAC3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B0711D269ECF00DAC3E2 /* main.m */; };
+		41C8B08F1D269ECF00DAC3E2 /* GCYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B0871D269ECF00DAC3E2 /* GCYTabBarController.m */; };
+		41C8B0901D269ECF00DAC3E2 /* GCYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B08A1D269ECF00DAC3E2 /* GCYTabBar.m */; };
+		41C8B0921D269FA300DAC3E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41C8B0911D269FA300DAC3E2 /* Info.plist */; };
+		41C8B0951D269FE200DAC3E2 /* GCYAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B0941D269FE200DAC3E2 /* GCYAttentionViewController.m */; };
+		41C8B0981D269FFA00DAC3E2 /* GCYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B0971D269FFA00DAC3E2 /* GCYEssenceViewController.m */; };
+		41C8B09B1D26A00E00DAC3E2 /* GCYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B09A1D26A00E00DAC3E2 /* GCYMeViewController.m */; };
+		41C8B09E1D26A02900DAC3E2 /* GCYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C8B09D1D26A02900DAC3E2 /* GCYNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,27 +42,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		418023431D22C4300041757B /* GCYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBarController.h; sourceTree = "<group>"; };
-		418023441D22C4300041757B /* GCYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBarController.m; sourceTree = "<group>"; };
-		4180234B1D22C4AF0041757B /* GCYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBar.h; sourceTree = "<group>"; };
-		4180234C1D22C4AF0041757B /* GCYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBar.m; sourceTree = "<group>"; };
 		4181BC101D1ECB9D00722E65 /* 百思不得姐Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4181BC1D1D1ECB9D00722E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4181BC221D1ECB9D00722E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4181BC241D1ECB9D00722E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4181BC291D1ECB9D00722E65 /* 百思不得姐DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4181BC2D1D1ECB9D00722E65 /* _____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoTests.m"; sourceTree = "<group>"; };
 		4181BC2F1D1ECB9D00722E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4181BC341D1ECB9D00722E65 /* 百思不得姐DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4181BC381D1ECB9D00722E65 /* _____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoUITests.m"; sourceTree = "<group>"; };
 		4181BC3A1D1ECB9D00722E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41BF722B1D1FDC56004E3D0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		41BF722C1D1FDC56004E3D0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		41BF722D1D1FDC56004E3D0B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41BF72341D202A07004E3D0B /* public.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public.pch; sourceTree = "<group>"; };
-		41EB2F1C1D22CE140040AE8B /* UIView+GCYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GCYExtension.h"; sourceTree = "<group>"; };
-		41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GCYExtension.m"; sourceTree = "<group>"; };
+		41C8B06B1D269ECF00DAC3E2 /* UIView+GCYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GCYExtension.h"; sourceTree = "<group>"; };
+		41C8B06C1D269ECF00DAC3E2 /* UIView+GCYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GCYExtension.m"; sourceTree = "<group>"; };
+		41C8B06E1D269ECF00DAC3E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C8B06F1D269ECF00DAC3E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C8B0711D269ECF00DAC3E2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C8B0721D269ECF00DAC3E2 /* public.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public.pch; sourceTree = "<group>"; };
+		41C8B0861D269ECF00DAC3E2 /* GCYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBarController.h; sourceTree = "<group>"; };
+		41C8B0871D269ECF00DAC3E2 /* GCYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBarController.m; sourceTree = "<group>"; };
+		41C8B0891D269ECF00DAC3E2 /* GCYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYTabBar.h; sourceTree = "<group>"; };
+		41C8B08A1D269ECF00DAC3E2 /* GCYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYTabBar.m; sourceTree = "<group>"; };
+		41C8B0911D269FA300DAC3E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C8B0931D269FE200DAC3E2 /* GCYAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYAttentionViewController.h; sourceTree = "<group>"; };
+		41C8B0941D269FE200DAC3E2 /* GCYAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYAttentionViewController.m; sourceTree = "<group>"; };
+		41C8B0961D269FFA00DAC3E2 /* GCYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYEssenceViewController.h; sourceTree = "<group>"; };
+		41C8B0971D269FFA00DAC3E2 /* GCYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYEssenceViewController.m; sourceTree = "<group>"; };
+		41C8B0991D26A00E00DAC3E2 /* GCYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYMeViewController.h; sourceTree = "<group>"; };
+		41C8B09A1D26A00E00DAC3E2 /* GCYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYMeViewController.m; sourceTree = "<group>"; };
+		41C8B09C1D26A02900DAC3E2 /* GCYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCYNewViewController.h; sourceTree = "<group>"; };
+		41C8B09D1D26A02900DAC3E2 /* GCYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCYNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,42 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		418023411D22C4300041757B /* TabBarClass */ = {
-			isa = PBXGroup;
-			children = (
-				418023421D22C4300041757B /* Controller */,
-				418023451D22C4300041757B /* View */,
-			);
-			path = TabBarClass;
-			sourceTree = "<group>";
-		};
-		418023421D22C4300041757B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				418023431D22C4300041757B /* GCYTabBarController.h */,
-				418023441D22C4300041757B /* GCYTabBarController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		418023451D22C4300041757B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4180234B1D22C4AF0041757B /* GCYTabBar.h */,
-				4180234C1D22C4AF0041757B /* GCYTabBar.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		418023471D22C4400041757B /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
-				41EB2F1C1D22CE140040AE8B /* UIView+GCYExtension.h */,
-				41EB2F1D1D22CE140040AE8B /* UIView+GCYExtension.m */,
-			);
-			path = Categorys;
-			sourceTree = "<group>";
-		};
 		4181BC071D1ECB9D00722E65 = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +121,7 @@
 		4181BC121D1ECB9D00722E65 /* 百思不得姐Demo */ = {
 			isa = PBXGroup;
 			children = (
-				41BF722A1D1FDC56004E3D0B /* Classes */,
+				41C8B0691D269ECF00DAC3E2 /* Classes */,
 				4181BC131D1ECB9D00722E65 /* Supporting Files */,
 			);
 			path = "百思不得姐Demo";
@@ -153,11 +130,10 @@
 		4181BC131D1ECB9D00722E65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41C8B0911D269FA300DAC3E2 /* Info.plist */,
 				4181BC1C1D1ECB9D00722E65 /* Main.storyboard */,
 				4181BC1F1D1ECB9D00722E65 /* Assets.xcassets */,
 				4181BC211D1ECB9D00722E65 /* LaunchScreen.storyboard */,
-				4181BC241D1ECB9D00722E65 /* Info.plist */,
-				41BF72341D202A07004E3D0B /* public.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,16 +156,205 @@
 			path = "百思不得姐DemoUITests";
 			sourceTree = "<group>";
 		};
-		41BF722A1D1FDC56004E3D0B /* Classes */ = {
+		41C8B0691D269ECF00DAC3E2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				418023411D22C4300041757B /* TabBarClass */,
-				418023471D22C4400041757B /* Categorys */,
-				41BF722B1D1FDC56004E3D0B /* AppDelegate.h */,
-				41BF722C1D1FDC56004E3D0B /* AppDelegate.m */,
-				41BF722D1D1FDC56004E3D0B /* main.m */,
+				41C8B0731D269ECF00DAC3E2 /* Section */,
+				41C8B0841D269ECF00DAC3E2 /* TabBarClass */,
+				41C8B06A1D269ECF00DAC3E2 /* Categorys */,
+				41C8B06D1D269ECF00DAC3E2 /* Other-其他 */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		41C8B06A1D269ECF00DAC3E2 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B06B1D269ECF00DAC3E2 /* UIView+GCYExtension.h */,
+				41C8B06C1D269ECF00DAC3E2 /* UIView+GCYExtension.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		41C8B06D1D269ECF00DAC3E2 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B06E1D269ECF00DAC3E2 /* AppDelegate.h */,
+				41C8B06F1D269ECF00DAC3E2 /* AppDelegate.m */,
+				41C8B0711D269ECF00DAC3E2 /* main.m */,
+				41C8B0721D269ECF00DAC3E2 /* public.pch */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		41C8B0731D269ECF00DAC3E2 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0781D269ECF00DAC3E2 /* Essence-精华 */,
+				41C8B0801D269ECF00DAC3E2 /* New-新帖 */,
+				41C8B0741D269ECF00DAC3E2 /* Attention-关注 */,
+				41C8B07C1D269ECF00DAC3E2 /* Me-我的 */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		41C8B0741D269ECF00DAC3E2 /* Attention-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0751D269ECF00DAC3E2 /* Controller */,
+				41C8B0761D269ECF00DAC3E2 /* Model */,
+				41C8B0771D269ECF00DAC3E2 /* View */,
+			);
+			path = "Attention-关注";
+			sourceTree = "<group>";
+		};
+		41C8B0751D269ECF00DAC3E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0931D269FE200DAC3E2 /* GCYAttentionViewController.h */,
+				41C8B0941D269FE200DAC3E2 /* GCYAttentionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41C8B0761D269ECF00DAC3E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C8B0771D269ECF00DAC3E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41C8B0781D269ECF00DAC3E2 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0791D269ECF00DAC3E2 /* Controller */,
+				41C8B07A1D269ECF00DAC3E2 /* Model */,
+				41C8B07B1D269ECF00DAC3E2 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		41C8B0791D269ECF00DAC3E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0961D269FFA00DAC3E2 /* GCYEssenceViewController.h */,
+				41C8B0971D269FFA00DAC3E2 /* GCYEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41C8B07A1D269ECF00DAC3E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C8B07B1D269ECF00DAC3E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41C8B07C1D269ECF00DAC3E2 /* Me-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B07D1D269ECF00DAC3E2 /* Controller */,
+				41C8B07E1D269ECF00DAC3E2 /* Model */,
+				41C8B07F1D269ECF00DAC3E2 /* View */,
+			);
+			path = "Me-我的";
+			sourceTree = "<group>";
+		};
+		41C8B07D1D269ECF00DAC3E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0991D26A00E00DAC3E2 /* GCYMeViewController.h */,
+				41C8B09A1D26A00E00DAC3E2 /* GCYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41C8B07E1D269ECF00DAC3E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C8B07F1D269ECF00DAC3E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41C8B0801D269ECF00DAC3E2 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0811D269ECF00DAC3E2 /* Controller */,
+				41C8B0821D269ECF00DAC3E2 /* Model */,
+				41C8B0831D269ECF00DAC3E2 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		41C8B0811D269ECF00DAC3E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B09C1D26A02900DAC3E2 /* GCYNewViewController.h */,
+				41C8B09D1D26A02900DAC3E2 /* GCYNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41C8B0821D269ECF00DAC3E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C8B0831D269ECF00DAC3E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41C8B0841D269ECF00DAC3E2 /* TabBarClass */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0851D269ECF00DAC3E2 /* Controller */,
+				41C8B0881D269ECF00DAC3E2 /* View */,
+			);
+			path = TabBarClass;
+			sourceTree = "<group>";
+		};
+		41C8B0851D269ECF00DAC3E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0861D269ECF00DAC3E2 /* GCYTabBarController.h */,
+				41C8B0871D269ECF00DAC3E2 /* GCYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41C8B0881D269ECF00DAC3E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B0891D269ECF00DAC3E2 /* GCYTabBar.h */,
+				41C8B08A1D269ECF00DAC3E2 /* GCYTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +461,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C8B0921D269FA300DAC3E2 /* Info.plist in Resources */,
 				4181BC231D1ECB9D00722E65 /* LaunchScreen.storyboard in Resources */,
 				4181BC201D1ECB9D00722E65 /* Assets.xcassets in Resources */,
 				4181BC1E1D1ECB9D00722E65 /* Main.storyboard in Resources */,
@@ -323,11 +489,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41EB2F1E1D22CE140040AE8B /* UIView+GCYExtension.m in Sources */,
-				41BF722F1D1FDC56004E3D0B /* main.m in Sources */,
-				4180234D1D22C4AF0041757B /* GCYTabBar.m in Sources */,
-				41BF722E1D1FDC56004E3D0B /* AppDelegate.m in Sources */,
-				418023461D22C4300041757B /* GCYTabBarController.m in Sources */,
+				41C8B08C1D269ECF00DAC3E2 /* AppDelegate.m in Sources */,
+				41C8B09E1D26A02900DAC3E2 /* GCYNewViewController.m in Sources */,
+				41C8B08E1D269ECF00DAC3E2 /* main.m in Sources */,
+				41C8B08B1D269ECF00DAC3E2 /* UIView+GCYExtension.m in Sources */,
+				41C8B08F1D269ECF00DAC3E2 /* GCYTabBarController.m in Sources */,
+				41C8B09B1D26A00E00DAC3E2 /* GCYMeViewController.m in Sources */,
+				41C8B0981D269FFA00DAC3E2 /* GCYEssenceViewController.m in Sources */,
+				41C8B0901D269ECF00DAC3E2 /* GCYTabBar.m in Sources */,
+				41C8B0951D269FE200DAC3E2 /* GCYAttentionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +640,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "百思不得姐Demo/public.pch";
+				GCC_PREFIX_HEADER = "百思不得姐Demo/Classes/Other-其他/public.pch";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -485,7 +655,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "百思不得姐Demo/public.pch";
+				GCC_PREFIX_HEADER = "百思不得姐Demo/Classes/Other-其他/public.pch";
 				INFOPLIST_FILE = "百思不得姐Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

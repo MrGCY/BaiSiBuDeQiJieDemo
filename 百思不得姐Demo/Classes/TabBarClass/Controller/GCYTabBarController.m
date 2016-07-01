@@ -8,6 +8,10 @@
 
 #import "GCYTabBarController.h"
 #import "GCYTabBar.h"
+#import "GCYEssenceViewController.h"
+#import "GCYNewViewController.h"
+#import "GCYAttentionViewController.h"
+#import "GCYMeViewController.h"
 
 @interface GCYTabBarController ()
 
@@ -51,10 +55,10 @@
  */
 -(void)setupAllChildViewController
 {
-    [self setupChildViewController:[[UITableViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
-    [self setupChildViewController:[[UITableViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectImage:@"tabBar_new_click_icon"];
-    [self setupChildViewController:[[UITableViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
-    [self setupChildViewController:[[UITableViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
+    [self setupChildViewController:[[GCYEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectImage:@"tabBar_essence_click_icon"];
+    [self setupChildViewController:[[GCYNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectImage:@"tabBar_new_click_icon"];
+    [self setupChildViewController:[[GCYAttentionViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectImage:@"tabBar_friendTrends_click_icon"];
+    [self setupChildViewController:[[GCYMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectImage:@"tabBar_me_click_icon"];
 }
 /**
  *  初始化一个控制器
@@ -66,7 +70,7 @@
  */
 -(void)setupChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)imageStr selectImage:(NSString *)selectImageStr
 {
-    vc.view.backgroundColor = GCYRandomColor;
+
     vc.tabBarItem.title = title;
     if (imageStr.length)
     {
